@@ -1,5 +1,5 @@
 {% set name = "dagster_spark" %}
-{% set version = "0.6.4" %}
+{% set version = "0.6.5" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: "https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz"
-  sha256: 343f9d68d5711905c4b77f9efe77ce3df6d6c94ef49d31aa6f312bba8ec647de
+  sha256: 4b7bf11c1436a277b757afaeb79e07562720d4339e8293d6d5d4849d5f4c1549
 
 build:
   number: 0
@@ -36,4 +36,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - xhochy
+    - conda-forge/dagster
